@@ -15,8 +15,8 @@ function firstNonRepeatedChar(str) {
 	if(str===""){
 		return "null"
 	}else{
-		return str
+		return str.trim()[0]
 	}
 }
-const input = prompt("Enter a string"); 
+const input = prompt("Enter a string");  
 alert(firstNonRepeatedChar(input)); 
